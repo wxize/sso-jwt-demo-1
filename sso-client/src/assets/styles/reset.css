@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd,
+ul,
+li,
+ol,
+form,
+input,
+select,
+p,
+textarea,
+span,
+a {
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+    letter-spacing: .04rem;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea,
+th,
+td,
+ol {
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+body {
+    font: 14px/16px "微软雅黑";
+    overflow-x: hidden;
+}
+
+body {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.clear {
+    zoom: 1;
+}
+
+em,
+i {
+    font-style: normal;
+}

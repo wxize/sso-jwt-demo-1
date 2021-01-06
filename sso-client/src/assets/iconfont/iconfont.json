@@ -1,0 +1,65 @@
+{
+  "id": "2291250",
+  "name": "蜂鸟",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1766475",
+      "name": "符号-多选",
+      "font_class": "duoxuan",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "7674874",
+      "name": "多选",
+      "font_class": "duoxuan1",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "1585491",
+      "name": "帮助文档",
+      "font_class": "bangzhuwendang",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "1302",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "741952",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "3248558",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7186603",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "12203732",
+      "name": "修改",
+      "font_class": "xiugai",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}

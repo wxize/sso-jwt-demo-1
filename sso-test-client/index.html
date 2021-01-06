@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script src="./isso.js"></script>
+        <script>
+            setTimeout(() => {
+                document.body.innerText = localStorage.getItem("token")
+            }, 3000)
+        </script>
+
+        <!-- 验证令牌 -->
+        <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.0/axios.min.js"></script>
+        <script>
+            //    临时验证， 正常应该由服务端来验证
+
+            setTimeout(() => {
+                let http = axios.create({
+                    headers: {
+                        token: localStorage.getItem("token"),
+                    },
+                })
+                http.get("http://www.sso.com:8001/verify").then((res) => {
+                    console.log(res)
+                })
+            }, 5000)
+        </script>
+    </body>
+</html>
